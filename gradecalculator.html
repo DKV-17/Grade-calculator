@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var X = prompt("Enter the Student Name");
+        document.write("Student Name: " + X + "<br>");
+
+    var Y = parseInt(prompt("Enter the student ID"));
+        document.write("Student ID: " + Y + "<br>");
+
+       var a = parseInt(prompt("Enter the Mark1"));
+       document.write("Mark 1:" + a + "<br>");
+
+        var b = parseInt(prompt("Enter the Mark2"));
+        document.write("Mark 2:" + b + "<br>");
+
+        var c = parseInt(prompt("Enter the Mark3"));
+        document.write("Mark 3:" + c + "<br>");
+
+        var d = parseInt(prompt("Enter the Mark4"));
+        document.write("Mark 4:" + d + "<br>");
+
+        var e = parseInt(prompt("Enter the Mark5"));
+        document.write("Mark 5:" + e + "<br>");
+
+        var total = a+b+c+d+e;
+        document.write("Total :" + total + "<br>");
+
+        var percentage = (total/500)*100;
+        document.write("Percentage :" +percentage + "<br>");
+
+        if(percentage>=90)
+    {
+        document.write("Grade : A");
+    }
+       else if(percentage>=80) 
+       {
+        document.write("Grade : B");
+    }
+    else if(percentage>=70) 
+       {
+        document.write("Grade : C");
+    }
+    else if(percentage>=60) 
+       {
+        document.write("Grade : D");
+    }
+    else if(percentage>=50) 
+       {
+        document.write("Grade : E");
+    }
+    else
+    {
+        document.write("FAIL");   
+    }
+    </script>
+</body>
+</html>
